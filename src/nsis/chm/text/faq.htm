@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>FAQ</Title>
+</HEAD>
+
+<BODY>
+
+<h1>Frequently Asked Questions</h1>
+
+<h2>Q: Why can't I install Adobe Photoshop?</h2>
+
+<p>A: Adobe Photoshop does not have an official native Linux version.
+Alternatively, you can use a program like GIMP that achieves mostly the same
+effect.</p>
+
+<h2>Q: Are my files going to be wiped?</h2>
+
+<p>A: Your files may be wiped if you are replacing Windows with Bridge Linux.
+If you are using Custom Mode, make sure to select the
+"Support for transferring files" component. If you used Easy Mode, at the
+end of the installer, make sure to check "I would like to transfer my files
+from Windows to Bridge Linux" as shown below.</p>
+
+<img src="img/nsis.png">
+
+<h2>Q: Why is there no NTFS option in the Bridge Linux Installer?</h2>
+
+<p>A: Bridge Linux can read and write to NTFS using the NTFS support built
+into the Linux kernel. However, NTFS is mainly useful when you are using a
+multi-partition setup between Windows and Linux. For a normal Bridge Linux
+installation, ext4 or BTRFS is recommended instead. The same applies to
+exFAT, which is mainly useful for compatibility with other operating systems
+and removable storage.</p>
+
+<h2>Q: Which File System should I pick?</h2>
+
+<p>A: The most preferred is ext4. It is mature, reliable, and works well for
+most users. However, BTRFS supports CoW (Copy on Write), data integrity
+checks, snapshots, and is very flexible with multi-partition setups. If you
+are not sure which one to pick, ext4 is the recommended choice.</p>
+
+<h2>Q: What games can I play on Linux?</h2>
+
+<p>A: As of right now, some online games on Linux are unsupported because
+their anti-cheat systems do not support Linux or Proton. Some games may
+also incorrectly block Linux users because of how their anti-cheat is
+configured. However, you can play the majority of games that support Linux
+or Proton through a platform such as Steam.</p>
+
+</BODY>
+</HTML>
