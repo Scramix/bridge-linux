@@ -1,0 +1,26 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Docs.chm
+Contents file=Tree.hhc
+Default Window=BridgeLinuxHelp
+Default topic=text\faq.htm
+Display compile progress=Yes
+Enhanced decompilation=Yes
+Full-text search=Yes
+Index file=Search.hhk
+Language=0x409 English (United States)
+Title=Bridge Linux Documentation
+
+[WINDOWS]
+BridgeLinuxHelp="Bridge Linux Documentation","Tree.hhc","Search.hhk","text\intro.htm","text\intro.htm",,,,,0x3420,,0x386e,[50,75,950,725],,,,,,,0
+
+
+[FILES]
+text\faq.htm
+text\intro.htm
+text\krnl.htm
+text\os.htm
+text\root.htm
+
+[INFOTYPES]
+
