@@ -1,5 +1,3 @@
-
-
 Unicode True
 
 !include "nsDialogs.nsh"
